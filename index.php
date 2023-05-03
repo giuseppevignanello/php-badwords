@@ -9,20 +9,24 @@
 </head>
 
 <body>
-    <form action="badWord.php" method="get"></form>
-    <div>
-        <label for="paragraph">Insert a paragraph</label>
-        <input type="text" name="paragraph" id=paragraph>
-    </div>
-    <div>
-        <label for="badWord">Select a Bad Word</label>
-        <input type="text" name="badWord" id=badWord>
-    </div>
-    <div>
-        <button type="submit">
-            Submit
-        </button>
-    </div>
+    <form action="badWord.php" method="get">
+        <div>
+            <label for="paragraph">Insert a paragraph</label>
+            <input type="text" name="paragraph" id=paragraph>
+        </div>
+        <div>
+            <label for="badWord">Select a Bad Word</label>
+            <input type="text" name="badWord" id=badWord>
+        </div>
+        <div>
+            <button type="submit">
+                Submit
+            </button>
+        </div>
+
+
+    </form>
+
 </body>
 
 </html>
