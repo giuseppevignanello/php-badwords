@@ -34,6 +34,14 @@ $paragraphLen = strlen($paragraph);
     ?>
     </p>
 
+    <p>
+    <h3> Censored paragraph</h3>
+    <?php
+    $badWord = $_GET["badWord"];
+    echo str_replace($badWord, "***", $paragraph)
+        ?>
+    </p>
+
 </body>
 
 </html>
