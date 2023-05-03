@@ -20,11 +20,11 @@
     <div class="container">
         <form action="badWord.php" method="get">
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Write a pargraph</label>
+                <label for="exampleFormControlTextarea1" class="form-label text-white">Write a pargraph</label>
                 <textarea class="form-control" name="paragraph" id=paragraph rows="3"></textarea>
             </div>
             <div class="my-2">
-                <label for="badWord">Select a Bad Word</label>
+                <label for="badWord" class="text-white">Select a Bad Word</label>
                 <input class="form-control" type="text" name="badWord" id=badWord>
             </div>
             <div class="my-2">

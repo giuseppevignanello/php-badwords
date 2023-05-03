@@ -25,21 +25,21 @@ $paragraphLen = strlen($paragraph);
         <header class="text-center text-white bg-danger py-2">
             <h1>The censor</h1>
         </header>
-        <h3 class="text-center"> Paragraph</h3>
+        <h3 class="text-center text-white"> Paragraph</h3>
         <p class="bg-light p-3 rounded">
             <?php
             echo ($paragraph);
             ?>
 
         </p>
-        <h3 class="text-center"> Paragraph lenght</h3>
+        <h3 class="text-center text-white"> Paragraph lenght</h3>
         <p class="bg-light p-3 rounded">
 
             <?php
             echo ($paragraphLen);
             ?>
         </p>
-        <h3 class="text-center"> Censored paragraph</h3>
+        <h3 class="text-center text-white"> Censored paragraph</h3>
         <p class="bg-light p-3 rounded">
 
             <?php
@@ -47,6 +47,7 @@ $paragraphLen = strlen($paragraph);
             echo str_replace($badWord, "***", $paragraph)
                 ?>
         </p>
+        <footer class="text-white mt-5 pt-5"> <span> Background image created with Dall-E</span></footer>
     </div>
 
 
