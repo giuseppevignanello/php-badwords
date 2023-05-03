@@ -1,8 +1,7 @@
 <?php
 
 $paragraph = $_GET["paragraph"];
-
-
+$paragraphLen = strlen($paragraph);
 
 ?>
 
@@ -19,12 +18,20 @@ $paragraph = $_GET["paragraph"];
 
 <body>
 
-    <h1>Paragraph</h1>
+    <h3>Paragraph</h3>
     <p>
         <?php
         echo ($paragraph);
+        echo ($paragraphLen);
         ?>
 
+    </p>
+
+    <p>
+    <h3> Paragraph lenght</h3>
+    <?php
+    echo ($paragraphLen);
+    ?>
     </p>
 
 </body>
